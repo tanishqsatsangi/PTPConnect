@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/ic_action_home"
+        android:id="@+id/home"
+        android:enabled="true"
+        android:title="Home"/>
+    <item
+        android:icon="@drawable/ic_action_explore"
+        android:id="@+id/explore"
+        android:enabled="true"
+        android:title="Explore"/>
+    <item
+        android:title=""
+        android:id="@+id/golive"
+        android:enabled="true"/>
+    <item
+        android:icon="@drawable/ic_action_meeting"
+        android:title="Meetings"
+        android:id="@+id/meeting"
+        android:enabled="true"/>
+    <item
+        android:icon="@drawable/ic_action_chats"
+        android:id="@+id/profilepage"
+        android:enabled="true"
+        android:title="Chats" />
+</menu>

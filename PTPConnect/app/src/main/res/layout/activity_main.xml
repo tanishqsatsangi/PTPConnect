@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/appnametv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="40sp"
+        android:layout_margin="5dp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="casual"
+        android:text="PTP Connect"  />
+
+
+    <TextView
+        android:layout_below="@id/appnametv"
+        android:id="@+id/apptagtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="italic"
+        android:text="Connecting People to People"  />
+
+
+    <TextView
+        android:id="@+id/miitv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="28sp"
+        android:layout_margin="5dp"
+        android:textColor="#000000"
+        android:fontFamily="casual"
+        android:layout_above="@id/quotetext"
+        android:text="Made In India"  />
+
+    <TextView
+        android:id="@+id/quotetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="16sp"
+        android:layout_margin="5dp"
+        android:textColor="#000000"
+        android:fontFamily="cursive"
+        android:text="Of the People,For the People,Of the People"  />
+
+</RelativeLayout>

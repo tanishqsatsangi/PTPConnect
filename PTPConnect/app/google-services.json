@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "328725889038",
+    "firebase_url": "https://ptp-connect.firebaseio.com",
+    "project_id": "ptp-connect",
+    "storage_bucket": "ptp-connect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328725889038:android:5fc3b1795f72fc10217c5f",
+        "android_client_info": {
+          "package_name": "com.goldenbirds.ptpconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328725889038-7ou5e3ipri8tngdnqumsrrh53l292ddb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNnxzLjr_nR44ei07hZgHAEsPMXXA5udg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328725889038-7ou5e3ipri8tngdnqumsrrh53l292ddb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

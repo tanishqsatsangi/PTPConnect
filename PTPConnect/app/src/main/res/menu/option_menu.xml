@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        app:showAsAction="always"
+        android:title="Notifications"
+        android:id="@+id/notifications"
+        android:enabled="true"/>
+    <item
+        android:title="Account"
+        android:id="@+id/account"
+        android:enabled="true"/>
+    <item
+        android:title="Settings"
+        android:id="@+id/setting"
+        android:enabled="true"/>
+    <item
+        android:title="Logout"
+        android:id="@+id/logout"
+        android:enabled="true"/>
+</menu>
